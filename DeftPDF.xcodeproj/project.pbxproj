@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE667782B3D9C2D0048EC81 /* DeftPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667772B3D9C2D0048EC81 /* DeftPDFApp.swift */; };
+		2BE6677A2B3D9C2D0048EC81 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667792B3D9C2D0048EC81 /* FilesView.swift */; };
+		2BE6677C2B3D9C2F0048EC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE6677B2B3D9C2F0048EC81 /* Assets.xcassets */; };
+		2BE6677F2B3D9C2F0048EC81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE6677E2B3D9C2F0048EC81 /* Preview Assets.xcassets */; };
+		2BE6678A2B3D9D840048EC81 /* FilesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667892B3D9D840048EC81 /* FilesViewModel.swift */; };
+		2BE6678E2B3DBC440048EC81 /* LocalFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6678D2B3DBC440048EC81 /* LocalFile.swift */; };
+		2BE667902B3DC1E60048EC81 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6678F2B3DC1E60048EC81 /* PDFKitView.swift */; };
+		2BE667932B3DCEED0048EC81 /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE667922B3DCEED0048EC81 /* WrappingStack */; };
+		2BE667982B3DD0A30048EC81 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE667952B3DD0A30048EC81 /* OpenSans-Bold.ttf */; };
+		2BE667992B3DD0A30048EC81 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE667962B3DD0A30048EC81 /* OpenSans-SemiBold.ttf */; };
+		2BE6679A2B3DD0A30048EC81 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE667972B3DD0A30048EC81 /* OpenSans-Regular.ttf */; };
+		2BE6679E2B3DD17A0048EC81 /* UIScreen + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6679D2B3DD17A0048EC81 /* UIScreen + Extension.swift */; };
+		2BE667A02B3DF0870048EC81 /* SearchbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6679F2B3DF0870048EC81 /* SearchbarView.swift */; };
+		2BE667A22B3DF0A20048EC81 /* PDFThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667A12B3DF0A20048EC81 /* PDFThumbnail.swift */; };
+		2BE667A42B3DF0EB0048EC81 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667A32B3DF0EB0048EC81 /* SettingsView.swift */; };
+		2BE667A92B3DFA730048EC81 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667A82B3DFA730048EC81 /* ToolsView.swift */; };
+		2BE667AB2B3DFA8B0048EC81 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667AA2B3DFA8B0048EC81 /* AccountView.swift */; };
+		2BE667AD2B3DFAA70048EC81 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667AC2B3DFAA70048EC81 /* MainView.swift */; };
+		2BE667C12B3E00D30048EC81 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE667C02B3E00D30048EC81 /* FirebaseAuth */; };
+		2BE667EB2B3E02670048EC81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BE667EA2B3E02670048EC81 /* GoogleService-Info.plist */; };
+		2BE667F22B3E0EA10048EC81 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE667F12B3E0EA10048EC81 /* GoogleSignIn */; };
+		2BE667F72B3E14470048EC81 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667F62B3E14470048EC81 /* Authentication.swift */; };
+		2BE667FC2B3E14B40048EC81 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667FB2B3E14B40048EC81 /* LoginView.swift */; };
+		2BE667FE2B3E14EA0048EC81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE667FD2B3E14EA0048EC81 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BE667742B3D9C2D0048EC81 /* DeftPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeftPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE667772B3D9C2D0048EC81 /* DeftPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeftPDFApp.swift; sourceTree = "<group>"; };
+		2BE667792B3D9C2D0048EC81 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
+		2BE6677B2B3D9C2F0048EC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE6677E2B3D9C2F0048EC81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BE667892B3D9D840048EC81 /* FilesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewModel.swift; sourceTree = "<group>"; };
+		2BE6678D2B3DBC440048EC81 /* LocalFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFile.swift; sourceTree = "<group>"; };
+		2BE6678F2B3DC1E60048EC81 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		2BE667952B3DD0A30048EC81 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2BE667962B3DD0A30048EC81 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2BE667972B3DD0A30048EC81 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2BE6679B2B3DD0BA0048EC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BE6679D2B3DD17A0048EC81 /* UIScreen + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen + Extension.swift"; sourceTree = "<group>"; };
+		2BE6679F2B3DF0870048EC81 /* SearchbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchbarView.swift; sourceTree = "<group>"; };
+		2BE667A12B3DF0A20048EC81 /* PDFThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFThumbnail.swift; sourceTree = "<group>"; };
+		2BE667A32B3DF0EB0048EC81 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2BE667A82B3DFA730048EC81 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		2BE667AA2B3DFA8B0048EC81 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2BE667AC2B3DFAA70048EC81 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2BE667EA2B3E02670048EC81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BE667F62B3E14470048EC81 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		2BE667FB2B3E14B40048EC81 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2BE667FD2B3E14EA0048EC81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE667712B3D9C2D0048EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE667C12B3E00D30048EC81 /* FirebaseAuth in Frameworks */,
+				2BE667932B3DCEED0048EC81 /* WrappingStack in Frameworks */,
+				2BE667F22B3E0EA10048EC81 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE6676B2B3D9C2D0048EC81 = {
+			isa = PBXGroup;
+			children = (
+				2BE667762B3D9C2D0048EC81 /* DeftPDF */,
+				2BE667752B3D9C2D0048EC81 /* Products */,
+				2BE667F02B3E0EA10048EC81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE667752B3D9C2D0048EC81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667742B3D9C2D0048EC81 /* DeftPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE667762B3D9C2D0048EC81 /* DeftPDF */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667EA2B3E02670048EC81 /* GoogleService-Info.plist */,
+				2BE6679B2B3DD0BA0048EC81 /* Info.plist */,
+				2BE667852B3D9CE90048EC81 /* Application */,
+				2BE6678C2B3DBC2D0048EC81 /* Models */,
+				2BE667862B3D9D080048EC81 /* Modules */,
+				2BE6679C2B3DD15A0048EC81 /* Extensions */,
+				2BE667F32B3E14190048EC81 /* Services */,
+				2BE6678B2B3D9DBB0048EC81 /* Resource */,
+				2BE6677D2B3D9C2F0048EC81 /* Preview Content */,
+			);
+			path = DeftPDF;
+			sourceTree = "<group>";
+		};
+		2BE6677D2B3D9C2F0048EC81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6677E2B3D9C2F0048EC81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BE667852B3D9CE90048EC81 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667772B3D9C2D0048EC81 /* DeftPDFApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2BE667862B3D9D080048EC81 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667872B3D9D1C0048EC81 /* Main */,
+				2BE667A52B3DFA230048EC81 /* Files */,
+				2BE667A62B3DFA3C0048EC81 /* Tools */,
+				2BE667A72B3DFA4D0048EC81 /* Account */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2BE667872B3D9D1C0048EC81 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667AC2B3DFAA70048EC81 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2BE667882B3D9D2D0048EC81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6678F2B3DC1E60048EC81 /* PDFKitView.swift */,
+				2BE6679F2B3DF0870048EC81 /* SearchbarView.swift */,
+				2BE667A12B3DF0A20048EC81 /* PDFThumbnail.swift */,
+				2BE667A32B3DF0EB0048EC81 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BE6678B2B3D9DBB0048EC81 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667942B3DD0730048EC81 /* Fonts */,
+				2BE6677B2B3D9C2F0048EC81 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2BE6678C2B3DBC2D0048EC81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6678D2B3DBC440048EC81 /* LocalFile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BE667942B3DD0730048EC81 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667952B3DD0A30048EC81 /* OpenSans-Bold.ttf */,
+				2BE667972B3DD0A30048EC81 /* OpenSans-Regular.ttf */,
+				2BE667962B3DD0A30048EC81 /* OpenSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2BE6679C2B3DD15A0048EC81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BE6679D2B3DD17A0048EC81 /* UIScreen + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BE667A52B3DFA230048EC81 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667882B3D9D2D0048EC81 /* Views */,
+				2BE667792B3D9C2D0048EC81 /* FilesView.swift */,
+				2BE667892B3D9D840048EC81 /* FilesViewModel.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		2BE667A62B3DFA3C0048EC81 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667A82B3DFA730048EC81 /* ToolsView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2BE667A72B3DFA4D0048EC81 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667F82B3E149B0048EC81 /* Views */,
+				2BE667AA2B3DFA8B0048EC81 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2BE667F02B3E0EA10048EC81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE667F32B3E14190048EC81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667F52B3E143C0048EC81 /* Authentication */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2BE667F52B3E143C0048EC81 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667F62B3E14470048EC81 /* Authentication.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2BE667F82B3E149B0048EC81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BE667FB2B3E14B40048EC81 /* LoginView.swift */,
+				2BE667FD2B3E14EA0048EC81 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE667732B3D9C2D0048EC81 /* DeftPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE667822B3D9C2F0048EC81 /* Build configuration list for PBXNativeTarget "DeftPDF" */;
+			buildPhases = (
+				2BE667702B3D9C2D0048EC81 /* Sources */,
+				2BE667712B3D9C2D0048EC81 /* Frameworks */,
+				2BE667722B3D9C2D0048EC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeftPDF;
+			packageProductDependencies = (
+				2BE667922B3DCEED0048EC81 /* WrappingStack */,
+				2BE667C02B3E00D30048EC81 /* FirebaseAuth */,
+				2BE667F12B3E0EA10048EC81 /* GoogleSignIn */,
+			);
+			productName = DeftPDF;
+			productReference = 2BE667742B3D9C2D0048EC81 /* DeftPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE6676C2B3D9C2D0048EC81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2BE667732B3D9C2D0048EC81 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BE6676F2B3D9C2D0048EC81 /* Build configuration list for PBXProject "DeftPDF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE6676B2B3D9C2D0048EC81;
+			packageReferences = (
+				2BE667912B3DCEED0048EC81 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */,
+				2BE667AE2B3DFFA90048EC81 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				2BE667B32B3E00D30048EC81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2BE667752B3D9C2D0048EC81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE667732B3D9C2D0048EC81 /* DeftPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE667722B3D9C2D0048EC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE6679A2B3DD0A30048EC81 /* OpenSans-Regular.ttf in Resources */,
+				2BE667992B3DD0A30048EC81 /* OpenSans-SemiBold.ttf in Resources */,
+				2BE6677F2B3D9C2F0048EC81 /* Preview Assets.xcassets in Resources */,
+				2BE6677C2B3D9C2F0048EC81 /* Assets.xcassets in Resources */,
+				2BE667982B3DD0A30048EC81 /* OpenSans-Bold.ttf in Resources */,
+				2BE667EB2B3E02670048EC81 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE667702B3D9C2D0048EC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE6677A2B3D9C2D0048EC81 /* FilesView.swift in Sources */,
+				2BE667AD2B3DFAA70048EC81 /* MainView.swift in Sources */,
+				2BE6679E2B3DD17A0048EC81 /* UIScreen + Extension.swift in Sources */,
+				2BE6678E2B3DBC440048EC81 /* LocalFile.swift in Sources */,
+				2BE667A42B3DF0EB0048EC81 /* SettingsView.swift in Sources */,
+				2BE667FE2B3E14EA0048EC81 /* HomeView.swift in Sources */,
+				2BE667AB2B3DFA8B0048EC81 /* AccountView.swift in Sources */,
+				2BE667A92B3DFA730048EC81 /* ToolsView.swift in Sources */,
+				2BE667A22B3DF0A20048EC81 /* PDFThumbnail.swift in Sources */,
+				2BE667F72B3E14470048EC81 /* Authentication.swift in Sources */,
+				2BE667782B3D9C2D0048EC81 /* DeftPDFApp.swift in Sources */,
+				2BE667902B3DC1E60048EC81 /* PDFKitView.swift in Sources */,
+				2BE667A02B3DF0870048EC81 /* SearchbarView.swift in Sources */,
+				2BE667FC2B3E14B40048EC81 /* LoginView.swift in Sources */,
+				2BE6678A2B3D9D840048EC81 /* FilesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BE667802B3D9C2F0048EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE667812B3D9C2F0048EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE667832B3D9C2F0048EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeftPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CX5GQ6RWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeftPDF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaausaaa.DeftPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2BE667842B3D9C2F0048EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeftPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CX5GQ6RWH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeftPDF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaausaaa.DeftPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE6676F2B3D9C2D0048EC81 /* Build configuration list for PBXProject "DeftPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE667802B3D9C2F0048EC81 /* Debug */,
+				2BE667812B3D9C2F0048EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE667822B3D9C2F0048EC81 /* Build configuration list for PBXNativeTarget "DeftPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE667832B3D9C2F0048EC81 /* Debug */,
+				2BE667842B3D9C2F0048EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BE667912B3DCEED0048EC81 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/swiftui-wrapping-stack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		2BE667AE2B3DFFA90048EC81 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		2BE667B32B3E00D30048EC81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BE667922B3DCEED0048EC81 /* WrappingStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BE667912B3DCEED0048EC81 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */;
+			productName = WrappingStack;
+		};
+		2BE667C02B3E00D30048EC81 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BE667B32B3E00D30048EC81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2BE667F12B3E0EA10048EC81 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BE667AE2B3DFFA90048EC81 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2BE6676C2B3D9C2D0048EC81 /* Project object */;
+}

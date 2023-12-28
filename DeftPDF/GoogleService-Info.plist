@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>30127379451-hbheh601feh66kr5msrb9bk52008rt79.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.30127379451-hbheh601feh66kr5msrb9bk52008rt79</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBR8tR5uEW4l90eu2tzhmt_dgjTYiZyuJk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>30127379451</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.aaausaaa.DeftPDF</string>
+	<key>PROJECT_ID</key>
+	<string>deftpdf-d41aa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deftpdf-d41aa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:30127379451:ios:b9ce581165f139aee1f15e</string>
+</dict>
+</plist>
