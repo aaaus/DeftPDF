@@ -102,14 +102,14 @@ class FilesViewModel: ObservableObject {
         }
     }
     
-    func pdfPreview(url: URL) -> PDFView? {
+    func pdfPreview(url: URL) -> PDFDocument? {
         guard let pdfDoc = PDFDocument(url: url) else {
             return nil
         }
-        let pdfView = PDFView()
-        pdfView.document = pdfDoc
+      //  let pdfView = PDFView()
+    //    pdfView.document = pdfDoc
         
-        return pdfView
+        return pdfDoc
     }
     
     func pdfDoc(url: URL) {

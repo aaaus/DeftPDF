@@ -16,7 +16,7 @@ struct SettingsView: View {
             HStack {
                 if let url = vm.selectedItem?.url,
                    let pdfDoc = vm.pdfPreview(url: url) {
-                    PDFThumbnail(pdfView: pdfDoc, size: thumbSize)
+                    PDFThumbnail(pdfDoc: pdfDoc, size: thumbSize)
                         .frame(width: thumbSize.width + 8, height: thumbSize.height + 8)
                         .cornerRadius(5)
                         .shadow(color: .gray.opacity(0.5), radius: 3, x: 1, y: 1)

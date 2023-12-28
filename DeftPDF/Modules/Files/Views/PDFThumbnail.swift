@@ -9,11 +9,13 @@ import SwiftUI
 import PDFKit
 
 struct PDFThumbnail: UIViewRepresentable {
-    var pdfView : PDFView
+    var pdfDoc: PDFDocument
     var size: CGSize
     
     func makeUIView(context: Context) -> PDFThumbnailView {
         let thumbnail = PDFThumbnailView()
+        let pdfView = PDFView()
+        pdfView.document = pdfDoc
         thumbnail.pdfView = pdfView
         thumbnail.thumbnailSize = size
         thumbnail.layoutMode = .vertical

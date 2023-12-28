@@ -43,7 +43,7 @@ struct FilesView: View {
                     ForEach(vm.localFiles, id: \.self) { item in
                         VStack(spacing: 4) {
                             if let pdfDoc = vm.pdfPreview(url: item.url) {
-                                PDFThumbnail(pdfView: pdfDoc, size: thumbSize)
+                                PDFThumbnail(pdfDoc: pdfDoc, size: thumbSize)
                                     .frame(width: itemWidth - 32, height: itemWidth - 8)
                                     .cornerRadius(5)
                                     .shadow(color: .gray.opacity(0.5), radius: 3, x: 1, y: 1)
