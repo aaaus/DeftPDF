@@ -65,11 +65,11 @@ struct FilesView: View {
                                 vm.isShowSettingsView = true
                             } label: {
                                 Text("• • •")
-                                    .foregroundColor(Color("DarkGrayColor"))
+                                    .foregroundColor(Color("DotsColor"))
                                     .font(.custom("OpenSans-SemiBold", size: 10))
                                     .padding(EdgeInsets(top: 0, leading: 4, bottom: 0, trailing: 4))
                                     .background(RoundedRectangle(cornerRadius: 10)
-                                        .foregroundColor(Color("LightGrayColor")))
+                                        .foregroundColor(Color("GrayTextColor")))
                             }
                             .padding(.top, 4)
                             

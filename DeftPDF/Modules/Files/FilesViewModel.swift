@@ -97,8 +97,6 @@ class FilesViewModel: ObservableObject {
                 }
             
             searchText = ""
-            
-            print("localFiles \(localFiles)")
         } catch {
             print(error)
         }

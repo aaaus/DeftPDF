@@ -26,13 +26,13 @@ struct MainView: View {
                         Label("Account", image: "Account")
                     }
             }
-            .accentColor(Color("Purple"))
+            .accentColor(Color("TabSelected"))
             
             VStack {
                 Spacer()
                 Rectangle()
                     .frame(maxWidth: .infinity, maxHeight: 1)
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                     .padding(.bottom, 52)
             }
         }

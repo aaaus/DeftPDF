@@ -39,7 +39,7 @@ struct SettingsView: View {
             }
             
             Divider()
-                .foregroundColor(Color("LightGrayColor"))
+                .foregroundColor(Color("GrayTextColor"))
                 .padding(.vertical, 8)
             
             VStack(spacing: 0) {
@@ -54,7 +54,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Sign")
@@ -67,7 +67,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Convert to")
@@ -82,7 +82,7 @@ struct SettingsView: View {
             .foregroundColor(Color("MainTextColor"))
             .font(.custom("OpenSans-Regular", size: 16))
             .background(RoundedRectangle(cornerRadius: 10)
-                .stroke(Color("LightGrayColor"), lineWidth: 1))
+                .stroke(Color("GrayTextColor"), lineWidth: 1))
             
             VStack(spacing: 0) {
                 HStack {
@@ -96,7 +96,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Save on device")
@@ -109,7 +109,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Save in cloud")
@@ -122,7 +122,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Rename")
@@ -135,7 +135,7 @@ struct SettingsView: View {
                 .frame(height: 48)
                 
                 Divider()
-                    .foregroundColor(Color("LightGrayColor"))
+                    .foregroundColor(Color("GrayTextColor"))
                 
                 HStack {
                     Text("Delete")
@@ -155,7 +155,7 @@ struct SettingsView: View {
             .foregroundColor(Color("MainTextColor"))
             .font(.custom("OpenSans-Regular", size: 16))
             .background(RoundedRectangle(cornerRadius: 10)
-                .stroke(Color("LightGrayColor"), lineWidth: 1))
+                .stroke(Color("GrayTextColor"), lineWidth: 1))
             .padding(.top, 8)
         }
         .padding(.horizontal, 16)
